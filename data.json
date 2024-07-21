@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Blue leather office chair",
+            "price": 60.00,
+            "disc": "$88.00",
+            "image1": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product8-1.jpg",
+            "image2": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product8-2.jpg"
+        },
+        {
+            "id": 2,
+            "title": "CIMOTA Upholstered Arm",
+            "price": 88.00,
+            "disc": "",
+            "image1": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product14-1.jpg",
+            "image2": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product14-2.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Coco Club Chair",
+            "price": 289.00,
+            "disc": "",
+            "image1": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product17-1.jpg",
+            "image2": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product17-2.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Defective Door Refrigerat",
+            "price": 690.00,
+            "disc": "",
+            "image1": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product9-1.jpg",
+            "image2": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product9-2.jpg"
+        },
+        {
+            "id": 5,
+            "title": "electric oil heater",
+            "price": 69.00,
+            "disc": "",
+            "image1": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product2-1.jpg",
+            "image2": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product2-2.jpg"
+        },
+        {
+            "id": 6,
+            "title": "height adjustable desk",
+            "price": 53.00,
+            "disc": "",
+            "image1": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product18-1.jpg",
+            "image2": "https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product18-2.jpg"
+        }
+    ]
+}

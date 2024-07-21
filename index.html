@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="container">
+                <div class="top-row">
+                    <h3>FREE Express Shipping On Orders $99+</h3>
+                    <div class="right-things">
+                        <ul>
+                            <li>
+                                <h4>usd <i class="fa-solid fa-angle-down"></i></h4>
+                            </li>
+                            <li>
+                                <h4>english <i class="fa-solid fa-angle-down"></i></h4>
+                            </li>
+                            <li>
+                                <h5>Default Welcome Msg!</h5>
+                            </li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">sign in</a></li>
+                            <li><a href="#">contact us</a></li>
+                            <li><a href="#">create an account</a></li>
+                        </ul>
+                        <div class="right-icons">
+                            <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay2">
+            <aside class="cart">
+                <div class="close2">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <h3>My Cart</h3>
+                <h4 class="empty">You have no items in your shopping cart.</h4>
+                <div class="cart-row">
+                </div>
+                <div class="lasted">
+                    <div class="total">
+                        <h3>subtotal:</h3>
+                        <h4>$<span></span></h4>
+                    </div>
+                    <button>go to checkout</button>
+                </div>
+            </aside>
+        </div>
+        <aside class="aside1">
+            <div class="close3">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="top-buttons">
+                <button><i class="fa-solid fa-bars"></i> menu</button>
+                <button>account</button>
+                <button>settings</button>
+            </div>
+            <ul>
+                <li><a href="">fastion</a></li>
+                <li><a href="">electronics</a></li>
+                <li><a href="">appliances</a></li>
+                <li><a href="">home &decor</a></li>
+                <li><a href="">table & desk</a></li>
+                <li><a href="">sports</a></li>
+            </ul>
+        </aside>
+    </header>
+    <div class="mid">
+        <div class="container">
+            <div class="mid-row">
+                <div class="logo">
+                    <i class="fa-solid fa-bars" id="bar"></i>
+                    <h1>
+                        <img src="https://m2.portotheme.com/media/logo/stores/111/porto46-logo.png" alt="">
+                    </h1>
+                </div>
+                <div class="mid-input">
+                    <input type="text" placeholder="Search..." onkeyup="searchProducts(this.value)">
+                    <div class="selection">
+                        <div class="left-select">
+                            <select>
+                                <option>all categories</option>
+                            </select>
+                        </div>
+                        <div class="right-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-status">
+                    <i class="fa-solid fa-magnifying-glass resp"></i>
+                    <i class="fa-regular fa-heart resp"></i>
+                    <div class="user">
+                        <i class="fa-regular fa-user"></i>
+                        <div class="right">
+                            <h3>Welcome</h3>
+                            <h4>Sign In / Register</h4>
+                        </div>
+                    </div>
+                    <div class="basket">
+                        <i class="fa-solid fa-bag-shopping" id="basket"><span>0</span></i>
+                        <h3>shopping cart</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <div class="container">
+            <div class="last-row">
+                <div class="left-things">
+                    <div class="big-menu">
+                        <i class="fa-solid fa-bars"></i>
+                        <h3>all departments</h3>
+                        <ul class="dropDown">
+                            <li><a href="#"><i class="fa-solid fa-person-dress"></i> Fashion</a>
+                                <div class="dropDown2">
+                                    <div class="flex1">
+                                        <div class="left-uls">
+                                            <div class="uls">
+                                                <h3>women</h3>
+                                                <ul>
+                                                    <li><a href="">Tops & Blouses</a></li>
+                                                    <li><a href="">Accessories</a></li>
+                                                    <li><a href="">Dresses & Skirts</a></li>
+                                                    <li><a href="">Shoes & Boots</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls">
+                                                <h3>men</h3>
+                                                <ul>
+                                                    <li><a href="">Tops & Blouses</a></li>
+                                                    <li><a href="">Accessories</a></li>
+                                                    <li><a href="">Dresses & Skirts</a></li>
+                                                    <li><a href="">Shoes & Boots</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls">
+                                                <h3>jewellery</h3>
+                                                <ul>
+                                                    <li><a href="">Tops & Blouses</a></li>
+                                                    <li><a href="">Accessories</a></li>
+                                                    <li><a href="">Dresses & Skirts</a></li>
+                                                    <li><a href="">Shoes & Boots</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls">
+                                                <h3>kid fashion</h3>
+                                                <ul>
+                                                    <li><a href="">Tops & Blouses</a></li>
+                                                    <li><a href="">Accessories</a></li>
+                                                    <li><a href="">Dresses & Skirts</a></li>
+                                                    <li><a href="">Shoes & Boots</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="right-image">
+                                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/demo33-menu-1.jpg"
+                                                alt="">
+                                        </div>
+                                    </div>
+                                    <div class="some-images">
+                                        <div class="images"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand1.png"
+                                                alt=""></div>
+                                        <div class="images"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand2.png"
+                                                alt=""></div>
+                                        <div class="images"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand3.png"
+                                                alt=""></div>
+                                        <div class="images"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand4.png"
+                                                alt=""></div>
+                                        <div class="images"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand5.png"
+                                                alt=""></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-regular fa-clock"></i> Electronics</a>
+                                <div class="dropDown3">
+                                    <div class="flex2">
+                                        <div class="uls2">
+                                            <h3>ACCESSORIES</h3>
+                                            <ul>
+                                                <li><a href="">Cables & Adapters</a></li>
+                                                <li><a href="">Electronic Cigarettes</a></li>
+                                                <li><a href="">Batteries</a></li>
+                                                <li><a href="">Chargers</a></li>
+                                                <li><a href="">Home Electronic</a></li>
+                                                <li><a href="">Bags & Cases</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls2">
+                                            <h3>AUDIO & VIDEO</h3>
+                                            <ul>
+                                                <li><a href="">Televisions</a></li>
+                                                <li><a href="">TV Receivers</a></li>
+                                                <li><a href="">Projectors</a></li>
+                                                <li><a href="">Audio Amplifier</a></li>
+                                                <li><a href="">TV SticksAmplifier</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls2">
+                                            <h3>camera & photo</h3>
+                                            <ul>
+                                                <li><a href="">Digital Cameras</a></li>
+                                                <li><a href="">Camcorders</a></li>
+                                                <li><a href="">Camera Drones</a></li>
+                                                <li><a href="">Action Cameras</a></li>
+                                                <li><a href="">Photo Supplies</a></li>
+                                                <li><a href="">Camera & Photo</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls2">
+                                            <h3>LAPTOPS</h3>
+                                            <ul>
+                                                <li><a href="">Gaming Laptops</a></li>
+                                                <li><a href="">Ultraslim Laptops</a></li>
+                                                <li><a href="">Tablets</a></li>
+                                                <li><a href="">Laptop Accessories</a></li>
+                                                <li><a href="">Tablet Accessories</a></li>
+                                                <li><a href="">Laptop Bags & Cases</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="img"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/demo33-menu-2.jpg"
+                                                alt=""></div>
+                                        <div class="img"><img
+                                                src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/demo33-menu-3.jpg"
+                                                alt=""></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-gift"></i> Appliances</a>
+                                <div class="dropDown4">
+                                    <div class="flex3">
+                                        <div class="uls3">
+                                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/boy.png"
+                                                alt="">
+                                            <h3>for him</h3>
+                                            <ul>
+                                                <li><a href="#">Gifts For Boyfriend</a></li>
+                                                <li><a href="#">Gifts For Husband</a></li>
+                                                <li><a href="#">Gifts For Dad</a></li>
+                                                <li><a href="#">Gifts For Grandpa</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls3">
+                                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/girl.png"
+                                                alt="">
+                                            <h3>for girl</h3>
+                                            <ul>
+                                                <li><a href="#">Gifts For Girlfriend</a></li>
+                                                <li><a href="#">Gifts For Wife</a></li>
+                                                <li><a href="#">Gifts For Mom</a></li>
+                                                <li><a href="#">Gifts For Grandma</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls3">
+                                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/kid.png"
+                                                alt="">
+                                            <h3>for kids</h3>
+                                            <ul>
+                                                <li><a href="#">Gifts For Boys</a></li>
+                                                <li><a href="#">Gifts For Girls</a></li>
+                                                <li><a href="#">Gifts For Tween Boys</a></li>
+                                                <li><a href="#">Gifts For Tween Girls</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls3">
+                                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/megamenu/supermarket.png"
+                                                alt="">
+                                            <h3>birthday</h3>
+                                            <ul>
+                                                <li><a href="#">Birthday For Him</a></li>
+                                                <li><a href="#">Birthday For Her</a></li>
+                                                <li><a href="#">Boyfriend Gifts</a></li>
+                                                <li><a href="#">Girlfriend Gifts</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-seedling"></i> Home & Decor</a>
+                                <div class="dropDown5">
+                                    <div class="flex5">
+                                        <div class="left-uls2">
+                                            <div class="uls5">
+                                                <h3>FURNITURE</h3>
+                                                <ul>
+                                                    <li><a href="">Sofas & Couches</a></li>
+                                                    <li><a href="">Armchairs</a></li>
+                                                    <li><a href="">Bed Frames</a></li>
+                                                    <li><a href="">Beside Tables</a></li>
+                                                    <li><a href="">Dressing Tables</a></li>
+                                                    <li><a href="">Chest Of Drawers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls5">
+                                                <h3>LIGHTING</h3>
+                                                <ul>
+                                                    <li><a href="">Light Bulbs</a></li>
+                                                    <li><a href="">Lamps</a></li>
+                                                    <li><a href="">Celling Lights</a></li>
+                                                    <li><a href="">Wall Lights</a></li>
+                                                    <li><a href="">Bathroom Lighting</a></li>
+                                                    <li><a href="">Outdoor Lighting</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls5">
+                                                <h3>HOME ACCESSORIES</h3>
+                                                <ul>
+                                                    <li><a href="">Decorative Accessories</a></li>
+                                                    <li><a href="">Candals & Holders</a></li>
+                                                    <li><a href="">Home Fragrance</a></li>
+                                                    <li><a href="">Mirrors</a></li>
+                                                    <li><a href="">Clocks</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls5">
+                                                <h3>GARDEN & OUTDOORS</h3>
+                                                <ul>
+                                                    <li><a href="">Garden Furniture</a></li>
+                                                    <li><a href="">Lawn Mowers</a></li>
+                                                    <li><a href="">Pressure Washers</a></li>
+                                                    <li><a href="">All Garden Tools & Equipment</a></li>
+                                                    <li><a href="">Barbecure & Outdoor Dining</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="right-products">
+                                            <div class="right-row">
+                                                <div class="card">
+                                                    <div class="left-image">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product8-1.jpg"
+                                                            alt="">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product8-2.jpg"
+                                                            alt="" class="img2">
+                                                    </div>
+                                                    <div class="right-details">
+                                                        <h4>Blue Leather Office Chair</h4>
+                                                        <div class="discount">
+                                                            <span class="disc">$88.00</span>
+                                                            <span class="price">$60.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="left-image">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product14-1.jpg"
+                                                            alt="">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product14-2.jpg"
+                                                            alt="" class="img2">
+                                                    </div>
+                                                    <div class="right-details">
+                                                        <h4>CIMOTA Upholstered Arm</h4>
+                                                        <div class="stars">
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                        </div>
+                                                        <div class="discount">
+                                                            <span class="price">$88.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="left-image">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product17-1.jpg"
+                                                            alt="">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product17-2.jpg"
+                                                            alt="" class="img2">
+                                                    </div>
+                                                    <div class="right-details">
+                                                        <h4>Coco Club Chair</h4>
+                                                        <div class="stars">
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                        </div>
+                                                        <div class="discount">
+                                                            <span class="price">$289.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="left-image">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product9-1.jpg"
+                                                            alt="">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product9-2.jpg"
+                                                            alt="" class="img2">
+                                                    </div>
+                                                    <div class="right-details">
+                                                        <h4>Defective Door Refrigerat</h4>
+                                                        <div class="stars">
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                        </div>
+                                                        <div class="discount">
+                                                            <span class="price">$690.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card">
+                                                    <div class="left-image">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product2-1.jpg"
+                                                            alt="">
+                                                        <img src="https://m2.portotheme.com/media/catalog/product/cache/f03afad59006a87cc20cdc6ad4e77703/p/o/porto46-product2-2.jpg"
+                                                            alt="" class="img2">
+                                                    </div>
+                                                    <div class="right-details">
+                                                        <h4>electric oil heater</h4>
+                                                        <div class="stars">
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                            <div class="star"><i class="fa-solid fa-star"></i></div>
+                                                        </div>
+                                                        <div class="discount">
+                                                            <span class="price">$69.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-microphone-lines"></i> Tables & Desks</a>
+                                <div class="dropDown6">
+                                    <div class="flex6">
+                                        <div class="uls6">
+                                            <h3>INSTRUMENTS</h3>
+                                            <ul>
+                                                <li><a href="">Guitar</a></li>
+                                                <li><a href="">Drums Sets</a></li>
+                                                <li><a href="">Percussions</a></li>
+                                                <li><a href="">Pedals & Effects</a></li>
+                                                <li><a href="">Sound Cards</a></li>
+                                                <li><a href="">Studio Equipments</a></li>
+                                                <li><a href="">Piano & Keyboards</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="uls6">
+                                            <h3>EXTRA</h3>
+                                            <ul>
+                                                <li><a href="">Strings</a></li>
+                                                <li><a href="">Recorders</a></li>
+                                                <li><a href="">Amplifiers</a></li>
+                                                <li><a href="">Accessories</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#"><i class="fa-solid fa-baseball-bat-ball"></i> Sports</a>
+                                <div class="dropDown7">
+                                    <div class="flex7">
+                                        <div class="left-uls3">
+                                            <div class="uls7">
+                                                <h3>FURNITURE</h3>
+                                                <ul>
+                                                    <li><a href="">Sofas & Couches</a></li>
+                                                    <li><a href="">Armchairs</a></li>
+                                                    <li><a href="">Bed Frames</a></li>
+                                                    <li><a href="">Beside Tables</a></li>
+                                                    <li><a href="">Dressing Tables</a></li>
+                                                    <li><a href="">Chest Of Drawers</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls7">
+                                                <h3>LIGHTING</h3>
+                                                <ul>
+                                                    <li><a href="">Light Bulbs</a></li>
+                                                    <li><a href="">Lamps</a></li>
+                                                    <li><a href="">Celling Lights</a></li>
+                                                    <li><a href="">Wall Lights</a></li>
+                                                    <li><a href="">Bathroom Lighting</a></li>
+                                                    <li><a href="">Outdoor Lighting</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls7">
+                                                <h3>HOME ACCESSORIES</h3>
+                                                <ul>
+                                                    <li><a href="">Decorative Accessories</a></li>
+                                                    <li><a href="">Candals & Holders</a></li>
+                                                    <li><a href="">Home Fragrance</a></li>
+                                                    <li><a href="">Mirrors</a></li>
+                                                    <li><a href="">Clocks</a></li>
+                                                </ul>
+                                            </div>
+                                            <div class="uls7">
+                                                <h3>GARDEN & OUTDOORS</h3>
+                                                <ul>
+                                                    <li><a href="">Decorative Accessories</a></li>
+                                                    <li><a href="">Candals & Holders</a></li>
+                                                    <li><a href="">Home Fragrance</a></li>
+                                                    <li><a href="">Mirrors</a></li>
+                                                    <li><a href="">Clocks</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="big-product">
+                                            <div class="image">
+                                                <img src="https://m2.portotheme.com/media/catalog/product/cache/11458dcde882ed1dfb2833d935bf9253/p/r/product-22_1_28.jpg"
+                                                    alt="">
+                                                <div class="spans">
+                                                    <span>-17%</span>
+                                                    <span>new</span>
+                                                </div>
+                                                <h3>FLASH DEALS</h3>
+                                            </div>
+                                            <div class="card-body">
+                                                <h4>Product Short Name</h4>
+                                                <div class="stars2">
+                                                    <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                                    <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                                    <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                                    <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                                    <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                                </div>
+                                                <div class="discount2">
+                                                    <span class="disc2">$59.00</span>
+                                                    <span class="price2">$49.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="mainUl">
+                        <li><a href="#">categories <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropDown8">
+                                <div class="flex8">
+                                    <div class="uls8">
+                                        <h3>VARIATIONS 1</h3>
+                                        <ul>
+                                            <li><a href="">FULLWIDTH BANNER</a></li>
+                                            <li><a href="">BOXED IMAGE BANNER</a></li>
+                                            <li><a href="">BOXED SLIDER BANNER</a></li>
+                                            <li><a href="">LEFT SIDEBAR</a></li>
+                                            <li><a href="">RIGHT SIDEBAR</a></li>
+                                            <li><a href="">PRODUCT FLEX GRID</a></li>
+                                            <li><a href="">PRODUCT LIST ITEM TYPES</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="uls8">
+                                        <h3>VARIATIONS 2</h3>
+                                        <ul>
+                                            <li><a href="" class="new">AJAX INFINITE SCROLL</a></li>
+                                            <li><a href="">3 COLUMNS PRODUCTS</a></li>
+                                            <li><a href="">4 COLUMNS PRODUCTS</a></li>
+                                            <li><a href="">5 COLUMNS PRODUCTS</a></li>
+                                            <li><a href="">6 COLUMNS PRODUCTS</a></li>
+                                            <li><a href="">7 COLUMNS PRODUCTS</a></li>
+                                            <li><a href="">8 COLUMNS PRODUCTS</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right-image2"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">products <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropDown8">
+                                <div class="flex8">
+                                    <div class="uls8">
+                                        <h3>PRODUCT PAGES</h3>
+                                        <ul>
+                                            <li><a href="">SIMPLE PRODUCT</a></li>
+                                            <li><a href="">CONFIGURABLE PRODUCT</a></li>
+                                            <li><a href="">BUNDLE PRODUCT</a></li>
+                                            <li><a href="">GROUPED PRODUCT</a></li>
+                                            <li><a href="">DOWNLOADABLE PRODUCT</a></li>
+                                            <li><a href="">ADDTOCART STICKY</a></li>
+                                            <li><a href="">VERTICAL TABS</a></li>
+                                            <li><a href="">ACCORDION TABS</a></li>
+                                            <li><a href="">STICKY TABS</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="uls8">
+                                        <h3>PRODUCT LAYOUT</h3>
+                                        <ul>
+                                            <li><a href="">DEFAULT LAYOUT</a></li>
+                                            <li><a href="" class="new">EXTENDED LAYOUT</a></li>
+                                            <li><a href="" class="new">FULL WIDTH LAYOUT</a></li>
+                                            <li><a href="" class="new">GRID IMAGES LAYOUT</a></li>
+                                            <li><a href="" class="new">STICKY RIGHT SIDE INFO</a></li>
+                                            <li><a href="" class="new">VERTICAL LAYOUT</a></li>
+                                            <li><a href="">WITH SIDEBAR</a></li>
+                                            <li><a href="">WITHOUT SIDEBAR</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right-image3"></div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropDown9">
+                                <li><a href="">ABOUT US</a></li>
+                                <li><a href="">CONTACT US</a></li>
+                                <li><a href="">BLOG</a></li>
+                                <li><a href="">POST</a></li>
+                                <li><a href="">SHOPPING CART</a></li>
+                                <li><a href="">CHECKOUT</a></li>
+                                <li><a href="">MY ACCOUNT</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">features <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropDown9">
+                                <li><a href="">header types</a></li>
+                                <li><a href="">footer types</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-disc">
+                    <i class="fa-solid fa-percent"></i>
+                    <a href="#">Best Offers Here</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-row">
+                    <div class="hero-main">
+                        <div class="container">
+                            <div class="main-row">
+                                <div class="hero-content">
+                                    <h2>mega sale special offer up to 60% off</h2>
+                                    <input type="text" placeholder="exclusive product new arrival">
+                                    <div class="buttons">
+                                        <button>shop now</button>
+                                        <button>explore more</button>
+                                    </div>
+                                </div>
+                                <div class="right-image4">
+                                    <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-intro-1-item.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="left-image2">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-1.png"
+                                alt="">
+                        </div>
+                        <div class="right-details2">
+                            <h3>Side-By Side Pro</h3>
+                            <h4>Refrigerator</h4>
+                            <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="left-image2">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-2.png"
+                                alt="">
+                        </div>
+                        <div class="right-details2">
+                            <h3>Samsung Galaxy</h3>
+                            <h4>tab s6</h4>
+                            <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="left-image2">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-3.png"
+                                alt="">
+                        </div>
+                        <div class="right-details2">
+                            <h3>Classic Armchair</h3>
+                            <h4>Porto Style</h4>
+                            <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="left-image2">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-4.png"
+                                alt="">
+                        </div>
+                        <div class="right-details2">
+                            <h3>Battery Drill X2</h3>
+                            <h4>Pro Version</h4>
+                            <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers-row">
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-1.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>Home & Decor</h3>
+                            <p>8 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-2.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>tablets & desks</h3>
+                            <p>6 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-3.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>lighting</h3>
+                            <p>2 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-4.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>storage</h3>
+                            <p>2 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-5.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>appliances</h3>
+                            <p>6 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-6.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>automotive</h3>
+                            <p>1 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-7.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>tools</h3>
+                            <p>5 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-8.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>luggage</h3>
+                            <p>1 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-9.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>sports</h3>
+                            <p>2 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-10.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>fashion</h3>
+                            <p>7 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-11.jpg"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>electronics</h3>
+                            <p>10 products</p>
+                        </div>
+                    </div>
+                    <div class="cards2">
+                        <div class="card-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-category-12.png"
+                                alt="">
+                        </div>
+                        <div class="cards2-body">
+                            <h3>kitchen</h3>
+                            <p>2 products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="products-row">
+                    <div class="left-products">
+                    </div>
+                    <div class="right-products2">
+                        <div class="top-title">
+                            <h3>Featured Offer</h3>
+                            <h4>Hurry Up, ends soon.</h4>
+                        </div>
+                        <div class="right-row2">
+                            <div class="card3">
+                                <div class="image5">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product7-1.jpg"
+                                        alt="">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product7-2.jpg"
+                                        alt="" class="img4">
+                                    <span>-11%</span>
+                                    <div class="icona">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </div>
+                                <div class="card3-body">
+                                    <h3>WellieSTR 13 Pen Knife</h3>
+                                    <div class="stars5">
+                                        <div class="star5"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star5"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star5"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star5"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star5"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="discount5">
+                                        <span>$900.00</span>
+                                        <span>$800.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card4">
+                                <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-5.png"
+                                    alt="">
+                                <h4>Battery Drill X3</h4>
+                                <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="overlay">
+                <div class="over-row">
+                    <div class="close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                    <div class="left-image3">
+                        <img src="" alt="">
+                    </div>
+                    <div class="right-info">
+                        <h2></h2>
+                        <div class="stars6">
+                            <div class="star6"><i class="fa-solid fa-star"></i></div>
+                            <div class="star6"><i class="fa-solid fa-star"></i></div>
+                            <div class="star6"><i class="fa-solid fa-star"></i></div>
+                            <div class="star6"><i class="fa-solid fa-star"></i></div>
+                            <div class="star6"><i class="fa-solid fa-star"></i></div>
+                        </div>
+                        <div class="discount-over">
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <p>
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
+                            eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+                            eleifend leo.
+                        </p>
+                        <div class="flexable">
+                            <h3>AVAILABILITY: <span>IN STOCK</span></h3>
+                            <h3>SKU: <span>DM4400014</span></h3>
+                        </div>
+                        <div class="pays">
+                            <div class="left-counts">
+                                <button class="minus">-</button>
+                                <input type="text" value="1">
+                                <button class="plus">+</button>
+                            </div>
+                            <button class="addToCart2"><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                        </div>
+                        <a href="#">GO TO PRODUCT</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="someImages">
+            <div class="container">
+                <div class="some-row">
+                    <div class="card6">
+                        <div class="top-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-6.jpg"
+                                alt="">
+                        </div>
+                        <h2>Home Refresh New Ideas</h2>
+                        <h3>new arrivals</h3>
+                        <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="card6">
+                        <div class="top-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-7.jpg"
+                                alt="">
+                        </div>
+                        <h2>Shop Modern Products</h2>
+                        <h3>new arrivals</h3>
+                        <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                    <div class="card6">
+                        <div class="top-image">
+                            <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/homepage/44/porto44-banner-8.jpg"
+                                alt="">
+                        </div>
+                        <h2>Home Refresh New Ideas</h2>
+                        <h3>new arrivals</h3>
+                        <button>shop now <i class="fa-solid fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products2">
+            <div class="container">
+                <div class="title">
+                    <h3>Trending Offers</h3>
+                    <div class="right-icons2">
+                        <i class="fa-solid fa-angle-left"></i>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                </div>
+                <div class="products2-row">
+                    <div class="card7">
+                        <div class="image7">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product8-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product8-2.jpg"
+                                alt="" class="img7">
+                            <span>-32%</span>
+                            <div class="top-icona">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card7-body">
+                            <h3>blue leather office chair</h3>
+                            <div class="discount7">
+                                <span>$88.00</span>
+                                <span>$60.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card7">
+                        <div class="image7">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product14-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product14-2.jpg"
+                                alt="" class="img7">
+                            <span>-1%</span>
+                            <div class="top-icona">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card7-body">
+                            <h3>CIMOTA Upholstered Arm</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$88.00</span>
+                        </div>
+                    </div>
+                    <div class="card7">
+                        <div class="image7">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product17-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product17-2.jpg"
+                                alt="" class="img7">
+                            <div class="top-icona">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card7-body">
+                            <h3>Coco Club Chair</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$289.00</span>
+                        </div>
+                    </div>
+                    <div class="card7">
+                        <div class="image7">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product9-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product9-2.jpg"
+                                alt="" class="img7">
+                            <span>-3%</span>
+                            <div class="top-icona">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card7-body">
+                            <h3>Defective Door Refrigerat</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$690.00</span>
+                        </div>
+                    </div>
+                    <div class="card7">
+                        <div class="image7">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product2-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product2-2.jpg"
+                                alt="" class="img7">
+                            <div class="top-icona">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card7-body">
+                            <h3>Electric Oil Heater</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$69.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mid-image">
+            <div class="container">
+                <div class="mid-main-image">
+                    <div class="mid-content">
+                        <h3>New Arrivals</h3>
+                        <h4>Best Deals For an Amazing Kitchen</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products3">
+            <div class="ad">
+                <h2>Shop New Arrivals - Shop New Arrivals - Shop New Arrivals - Shop New Arrivals - Shop New Arrivals -
+                    Shop New Arrivals -</h2>
+            </div>
+            <div class="container">
+                <div class="products3-row">
+                    <div class="card8">
+                        <div class="image8">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product8-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product8-2.jpg"
+                                alt="" class="img8">
+                            <div class="top-icon8">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <span>-32%</span>
+                        </div>
+                        <div class="card8-body">
+                            <h3>Blue Leather Office Chair</h3>
+                            <div class="discount8">
+                                <span>$88.00</span>
+                                <span>$60.00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card8">
+                        <div class="image8">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product14-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product14-2.jpg"
+                                alt="" class="img8">
+                            <div class="top-icon8">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <span>-1%</span>
+                        </div>
+                        <div class="card8-body">
+                            <h3>CIMOTA Upholstered Arm</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$60.00</span>
+                        </div>
+                    </div>
+                    <div class="card8">
+                        <div class="image8">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product17-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product17-2.jpg"
+                                alt="" class="img8">
+                            <div class="top-icon8">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card8-body">
+                            <h3>Coco Club Chair</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$289.00</span>
+                        </div>
+                    </div>
+                    <div class="card8">
+                        <div class="image8">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product9-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product9-2.jpg"
+                                alt="" class="img8">
+                            <div class="top-icon8">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <span>-3%</span>
+                        </div>
+                        <div class="card8-body">
+                            <h3>Defective Door Refrigerat</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$690.00</span>
+                        </div>
+                    </div>
+                    <div class="card8">
+                        <div class="image8">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product2-1.jpg"
+                                alt="">
+                            <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product2-2.jpg"
+                                alt="" class="img8">
+                            <div class="top-icon8">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <div class="card8-body">
+                            <h3>Electric Oil Heater</h3>
+                            <div class="stars8">
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                                <div class="star8"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <span class="mt">$69.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="images2">
+            <div class="container">
+                <h2>Trending Brands</h2>
+                <div class="images2-row">
+                    <div class="imagess"><img
+                            src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand1.png" alt="">
+                    </div>
+                    <div class="imagess"><img
+                            src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand2.png" alt="">
+                    </div>
+                    <div class="imagess"><img
+                            src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand3.png" alt="">
+                    </div>
+                    <div class="imagess"><img
+                            src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand4.png" alt="">
+                    </div>
+                    <div class="imagess"><img
+                            src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand5.png" alt="">
+                    </div>
+                    <div class="imagess"><img
+                            src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/brands/new_brand6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blue">
+            <div class="container">
+                <div class="blue-row">
+                    <div class="left-words">
+                        <h2>Essential Tools To Renew With Porto Products</h2>
+                        <h3>Big Sale, ends soon!</h3>
+                        <p>Viewing essential tools available</p>
+                    </div>
+                    <div class="right-blue">
+                        <div class="right-blue-row">
+                            <div class="card9">
+                                <div class="image9">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product7-1.jpg"
+                                        alt="">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product7-2.jpg"
+                                        alt="" class="img9">
+                                    <span>-11%</span>
+                                    <div class="top-icon9">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                    <div class="pays3">
+                                        <div class="left-heart2">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <button><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                                        <div class="right-signal2">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card9-body">
+                                    <h3>WellieSTR 13 Pen Knife</h3>
+                                    <div class="stars9">
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <div class="discount9">
+                                        <span>$900.00</span>
+                                        <span>$800.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card9">
+                                <div class="image9">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product11-1.jpg"
+                                        alt="">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product11-2.jpg"
+                                        alt="" class="img9">
+                                    <span>-62%</span>
+                                    <div class="top-icon9">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                    <div class="pays3">
+                                        <div class="left-heart2">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <button><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                                        <div class="right-signal2">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card9-body">
+                                    <h3>Levoit HEPA Air Purifier</h3>
+                                    <div class="stars9">
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <span class="mt2">$69.00</span>
+                                </div>
+                            </div>
+                            <div class="card9">
+                                <div class="image9">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product12-1.jpg"
+                                        alt="">
+                                    <img src="https://m2.portotheme.com/media/catalog/product/cache/3db75e5b21f54074ca4bc701355dd8b7/p/o/porto46-product12-2.jpg"
+                                        alt="" class="img9">
+                                    <span>-55%</span>
+                                    <div class="top-icon9">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                    <div class="pays3">
+                                        <div class="left-heart2">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </div>
+                                        <button><i class="fa-solid fa-bag-shopping"></i> add to cart</button>
+                                        <div class="right-signal2">
+                                            <i class="fa-solid fa-signal"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card9-body">
+                                    <h3>HyperX QuadCast S</h3>
+                                    <div class="stars9">
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                        <div class="star9"><i class="fa-solid fa-star"></i></div>
+                                    </div>
+                                    <span class="mt2">$89.00</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="end-blue">
+                            <button>view more...</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest">
+            <div class="container">
+                <h2>latest posts</h2>
+                <div class="latest-row">
+                    <div class="card10">
+                        <div class="image10">
+                            <img src="https://m2.portotheme.com/media/magefan_blog/porto46-post-32.jpg" alt="">
+                        </div>
+                        <div class="card10-body">
+                            <h3>etiam laoreet sem</h3>
+                            <h4>Mar 5, 2024</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum, cum ducimus tempore nesciunt eius.</p>
+                            <button>read more <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card10">
+                        <div class="image10">
+                            <img src="https://m2.portotheme.com/media/magefan_blog/porto46-post-12.jpg" alt="">
+                        </div>
+                        <div class="card10-body">
+                            <h3>post format image</h3>
+                            <h4>Mar 5, 2024</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum, cum ducimus tempore nesciunt eius.</p>
+                            <button>read more <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="card10">
+                        <div class="image10">
+                            <img src="https://m2.portotheme.com/media/magefan_blog/porto46-post-22.jpg" alt="">
+                        </div>
+                        <div class="card10-body">
+                            <h3>post format heading</h3>
+                            <h4>Mar 5, 2024</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta rerum, cum ducimus tempore nesciunt eius.</p>
+                            <button>read more <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="shipping">
+            <div class="container">
+                <div class="shipping-row">
+                    <div class="card11">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <div class="right3">
+                            <h3>Free Shipping & Returns</h3>
+                            <h4>Free shipping on all orders over $99.</h4>
+                        </div>
+                    </div>
+                    <div class="card11">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <div class="right3">
+                            <h3>Money Back Guarantee</h3>
+                            <h4>100% money back guarantee</h4>
+                        </div>
+                    </div>
+                    <div class="card11">
+                        <i class="fa-regular fa-clock"></i>
+                        <div class="right3">
+                            <h3>Online Support 24/7</h3>
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                        </div>
+                    </div>
+                    <div class="card11">
+                        <i class="fa-solid fa-lock"></i>
+                        <div class="right3">
+                            <h3>Secure Payment</h3>
+                            <h4>Lorem ipsum dolor sit amet.</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subs">
+            <div class="container">
+                <div class="subs-row">
+                    <div class="left-message">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="right4">
+                            <h3>Subscribe Newsletter</h3>
+                            <p>Get all the latest information on Events, Sales and Offers. Sign up for newsletter today</p>
+                        </div>
+                    </div>
+                    <div class="right-input">
+                        <input type="email" placeholder="emaill address">
+                        <button>subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="foot-row">
+                    <div class="one">
+                        <h3 class="head">Contact Info</h3>
+                        <div class="bott">
+                            <div class="bott-row">
+                                <div class="address">
+                                    <h3>ADDRESS</h3>
+                                    <p>32 ahmed saed street, giza, egypt</p>
+                                </div>
+                                <div class="address">
+                                    <h3>PHONE</h3>
+                                    <p>01553269301</p>
+                                </div>
+                                <div class="address">
+                                    <h3>EMAIL</h3>
+                                    <p>moodeemaher@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="social-icons">
+                                <div class="socials"><i class="fa-brands fa-facebook-f"></i></div>
+                                <div class="socials"><i class="fa-brands fa-instagram"></i></div>
+                                <div class="socials"><i class="fa-brands fa-twitter"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="two">
+                        <h3 class="head">Customer Service</h3>
+                        <div class="two-row">
+                            <ul>
+                                <li><a href="">Contact Us</a></li>
+                                <li><a href="">Delivery Policy</a></li>
+                                <li><a href="">Exchange And Return Policy</a></li>
+                                <li><a href="">Payment Policy</a></li>
+                                <li><a href="">Electronic Invoice</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="">Corporate Sales</a></li>
+                                <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms Of Use</a></li>
+                                <li><a href="">Cookie Policy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="three">
+                        <h3 class="head">About Us</h3>
+                        <ul>
+                            <li><a href="">about us</a></li>
+                            <li><a href="">our stores</a></li>
+                            <li><a href="">careers</a></li>
+                            <li><a href="">brands</a></li>
+                        </ul>
+                    </div>
+                    <div class="four">
+                        <h3 class="head">Top 5 FAQs</h3>
+                        <ul>
+                            <li><a href="">Technical support contacts?</a></li>
+                            <li><a href="">How do I know the date of my delivery?</a></li>
+                            <li><a href="">My product did not arrive?</a></li>
+                            <li><a href="">What are the payment methods?</a></li>
+                            <li><a href="">Product availability?</a></li>
+                            <li><h4>read more <i class="fa-solid fa-angle-right"></i></h4></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="foot-end">
+            <div class="container">
+                <div class="foot-end-row">
+                    <h4>© Porto Magento 2024. All Rights Reserved.</h4>
+                    <img src="https://m2.portotheme.com/media/wysiwyg/smartwave/porto/footer/shop2_payment_logo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="upper">
+            <i class="fa-solid fa-arrow-up"></i>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
