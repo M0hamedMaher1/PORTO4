@@ -3786,7 +3786,7 @@ body{
     .hero-content{
         width: 85%;
     }
-    .right-info p{
+    .right-info h2 ~ p{
         font-size: 13px;
         line-height: 1.4;
     }
